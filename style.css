@@ -181,10 +181,22 @@ h2{
 	margin: 0 auto;
 }
 
+/*    lunch     */
 #lunch{
 	background-color: #f2f3f5;
-	padding-top: 100px;
-	padding-bottom: 100px;
+/*	padding-top: 100px;
+*/	padding-bottom: 100px;
+}
+.lunch_bg{
+	background: url("IMG_9492.JPG") no-repeat fixed;
+	background-size: 100%;
+	height: 320px;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+#lunch h2{
+	margin-top: 100px;
 }
 #lunch a{
 	text-align: center;
