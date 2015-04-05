@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<title>tsukahey</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="shake.css">
+	<link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript">
+        jQuery(function($){
+            $('dd').hide();
+            $(function(){
+                $('#btn').on('click', function() {
+                    if($(this).parent().find('dd').css('display') == 'none'){
+                        $(this).parent().find('dd').show();
+                    } else {
+                        $(this).parent().find('dd').hide();
+                    }
+              });
+            });
+
+        });
+        </script>
+</head>
+<body>
+
+	<div id="wrapper">
+
+		<div id="header">
+			<div class="inner">
+			<h1><a href="#top">tsukahey</a></h1>
+				<div class="menu">
+				<ul>
+					<li><a href="#top">TOP</a></li>
+					<li><a href="#about">ABOUT</a></li>
+					<li><a href="#past">PAST</a></li>
+					<li><a href="#future">FUTURE</a></li>
+					<li class="shake shake-constant hover-stop"><a href="#lunch" style="color:#f7d034">LUNCH?</a></li>
+				</ul>
+				</div>
+			</div>
+		</div><!--/header-->
+
+
+		<section id="top">
+			<div id="inner_1">
+
+				<p>Guess Who?</p>
+
+				<!-- <img src="" alt="" width="1000" id="topimg">
+				<img src="" alt="" width="1000" id="topmask"> -->
+
+			</div>
+		</section><!--/top-->
+
+		<section id="about">
+			<div class="inner">
+				<h2>I am KOHEI OTSUKA.</h2>
+				<p>新卒でデジプロに参画することになりました、大塚康平と申します。<br>当ページを通じて、僕のことを少しでも知って頂けたら幸いです。</p>
+			</div>
+		</section><!--/about-->
+
+		<section id="past">
+			<div class="inner">
+				<h2>STUDENT DAYS. FEEL THE WORLD.</h2>
+				<p id="past_1">学生時代。多くの物事のキッカケになった体験は世界一周の旅をしたことです。その経緯を簡単に説明すると、<br>2010年、大学１年の秋、同じ生活を繰り返す毎日に飽きて始めていた頃、元国連職員の教授に出逢い「海外に行け」と言われ、どうせなら世界一周したいと思い、方法を調べていると、あわよくばタダで世界一周できるNGOを見つけて次の日に申し込み、ポスター４千枚貼って、2011年７月に日本を出発した、という経緯です。当時19歳でした。</p>
+				<img src="top1.png" alt="finland" width="100%">
+				<div id="script_left">
+					<p id="past_2">　日本を飛び出してからは、本などから得られる知識と異なる現状を知るなど、目の当たりにする様々な物事が自分の頭中の概念には無く、論理で整理できる範囲を超えていたため、体当たりで感じることで精一杯でした。途上国も先進国も満遍なく22カ国訪れましたが、どこにも日本国内での"当たり前"は存在しませんでした。<br>初めはその土地のことを理解しようと必死でしたが途中で無理だと気づき、結局は寛容な心で様々な価値観を柔軟に受け入れるしかないんだと思うようになりました。<br>見るものすべてから気づきが得られるので、新たな体験ばかりの毎日は本当に有意義なものでした。<br>パレスチナ自治区でのホームステイやバルセロナのホステルで、異国の人たちと話したことについても機会があれば、またお話しようと思います。</p>
+					<p id="past_3">　地球をグルッと回ったことは、たくさんの気づきを得られた良い経験でした。僕が教授から「海外」という選択肢に気付かされた様に、未だ知らない選択肢を発見する機会を提供できたら、有意義な時間を過ごす人が増えるんじゃないか。と思って立ち上げたのが <a href="http://campus-inc.org/">Campus</a> でした。<br>そのCampusで僕が軸として持ち続けていた考えは「知っている」と「選択肢」は人それぞれで異なるということです。単に情報を集めれば選択肢になる訳ではなく、人それぞれに何を選択肢として捉えているかは異なる。常に「この情報を選択肢として捉えるのは誰なのか、その人は何を選択肢とするのか」を考えてサービスを設計していきました。</p>
+				</div><!--/script_left-->
+				<div id="pic_right">
+					<img src="trip1.png" alt="Greece" width="300">
+					<img src="soccer.png" alt="Guatemala" width="300">
+					<img src="campus1.png" alt="Campus" width="300">
+				</div>
+			</div>
+		</section><!--/past-->
+		<section id="future">
+			<div class="inner">
+				<h2>CREATE a moment <br>that people world is expanded.</h2>
+				<p id="future_1">これからどのように自分の価値観が変わっていくかはわかりませんが、もう何年も変わらずに自分の心に根付いている想いがあります。それが、「世界が広がる瞬間を演出したい」ということです。僕自身もまだまだ抽象的にしかその意味を理解できていません。<br>世界ってどの範囲なのか。その世界って誰のものなのか。どんな風に広がっていくのか。どうやって演出するのか。<br>でもフィーリングで強く感じる時があります。「この感じがたまらない」って思う時があるんです。それがなぜなのか、を具体化していくことが僕の人生をかけた目標だと思っています。</p>
+				<div id="inner_2">
+				<iframe id="sawareru" width="560" height="315" src="https://www.youtube.com/embed/SPbBdqqcsFY" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<p id="future_2">これは2013年の夏にヤフージャパンが公開したサービスです。僕がイメージする「世界が広がる瞬間」のひとつです。<br>「こんな形だったんだ！」女の子は初めてスカイツリーの姿を知ります。彼女の持つ世界がまた一つ大きく膨らんだ瞬間でしょう。</p>
+			</div>
+
+		</section><!--/future-->
+		<section id="lunch">
+			<div class="inner">
+				<h2>GO FOR LUNCH with ME ?</h2>
+				<p>部署や年齢の垣根を越えて、様々な人とお話したいと思っています。<br>会社には、目標や想いなど、何かしら共通するものを持っている人が集まっているはず。きっと話をすれば有意義な時間を過ごせると考えています。<br>仕事のこと。プライベートのこと。東京での暮らしのこと。将来の夢のこと。ぜひ聞かせてください！（聞いてください！）<br>とは言っても、キッカケもなく話かけるのはちょっと・・・。<br>なんて言わずに「一緒にランチに行きましょう！」</p>
+				<div id="btn"><a class="button">いいよ！</a></div>
+				<p>「大塚とランチ行ってもいいよ」「飯に連れてってやるよ」そんな後輩想い（仲間想い）の優しいあなた、「いいよ！」ボタンを押してみてください！</p>
+				<dd><iframe src="https://docs.google.com/forms/d/1soxZxHSJ-k-o_CjmLuxEXU_oFUXaphU5ByxJJ5wYsyY/viewform?embedded=true" width="800" height="400" frameborder="0" marginheight="0" marginwidth="0" id="form">読み込み中...</iframe></dd>
+			</div>
+		</section><!--/lunch-->
+
+		<div id="footer">
+			Thanks Coming :)<br><br>
+			Copyright&copy;2015,DisitalProductDevelopingDivision,KoheiOtsuka.
+		</div>
+
+	</div><!--/wrapper-->
+
+</body>
+</html>
